@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            padding: 20px;
+        }
+        .grid-item {
+            padding: 25px;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 0 0 30px rgba(7, 7, 7, 0.268);
+            background-color: #f9f9f9;
+        }
+        .icon {
+            font-size: 48px;
+            color: #333;
+        }
+        h3 {
+            margin-top: 10px;
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #666;
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #1bb300;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+    <title>Model Page</title>
+</head>
+<body>
+    <h2>Give Your Child an International Education</h2>
+    <div class="grid-container">
+        <div class="grid-item">
+            <i class="fas fa-book icon"></i>
+            <h3>High-Quality Education</h3>
+            <p>Our curriculum is designed to provide high-quality education...</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="grid-item">
+            <i class="fas fa-globe-americas icon"></i>
+            <h3>Global Perspective</h3>
+            <p>We offer programs that provide students with a global perspective...</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="grid-item">
+            <i class="fas fa-users icon"></i>
+            <h3>Diverse Community</h3>
+            <p>Join our diverse community of students from all around the world...</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="grid-item">
+            <i class="fas fa-graduation-cap icon"></i>
+            <h3>Future Opportunities</h3>
+            <p>Our programs prepare students for future academic and career opportunities...</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+</body>
+</html>
